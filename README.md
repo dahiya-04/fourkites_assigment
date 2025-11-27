@@ -47,7 +47,7 @@ The experiment confirms that **high absolute sharpness is a reliable indicator o
 
 ## Repository Structure
 
-*   `final_report_actual_data.md`: The comprehensive research report detailing the theory, methods, and analysis.
+*   `fourkites.pdf`: The comprehensive research report detailing the theory, methods, and analysis.
 *   `landscape_prober.py`: Python class for efficient Hessian-Vector Product and Power Iteration.
 *   `empirical_experiment.py`: Python script to train models and run the sharpness probing experiment.
 *   `experiment_results.json`: Example file containing the final empirical data.
@@ -68,4 +68,4 @@ To reproduce the empirical results, you will need a Python environment with PyTo
 
 ## Further Reading
 
-For a detailed discussion of the theoretical derivations and the full analysis, please refer to the `final_report_actual_data.md`.
+For a detailed discussion of the theoretical derivations and the full analysis, please refer to the `fourkites.pdf`.
