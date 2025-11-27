@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Sharp_SGD_HighLR",
+        "optimizer": "SGD",
+        "lr": 0.1,
+        "weight_decay": 1e-05,
+        "test_loss": 0.05725585144609213,
+        "test_accuracy": 98.14,
+        "sharpness_lambda_max": 9.142459869384766,
+        "eigenvector_path": "./trained_models/Sharp_SGD_HighLR_eigenvector.pt"
+    },
+    {
+        "name": "Flat_SGD_LowLR",
+        "optimizer": "SGD",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "test_loss": 0.2753206703662872,
+        "test_accuracy": 91.72,
+        "sharpness_lambda_max": 246.18545532226562,
+        "eigenvector_path": "./trained_models/Flat_SGD_LowLR_eigenvector.pt"
+    },
+    {
+        "name": "Adam_Default",
+        "optimizer": "Adam",
+        "lr": 0.001,
+        "weight_decay": 1e-05,
+        "test_loss": 0.035660671084350906,
+        "test_accuracy": 98.9,
+        "sharpness_lambda_max": 6.258701324462891,
+        "eigenvector_path": "./trained_models/Adam_Default_eigenvector.pt"
+    }
+]
